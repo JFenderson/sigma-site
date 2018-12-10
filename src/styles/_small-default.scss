@@ -1,0 +1,337 @@
+@import "variables";
+@import "landing-slideshow";
+@import "service-slideshow";
+
+//header starts
+
+
+.landing{
+  height: 100vh;
+  width: 100%;
+  background: url('../img/sigma-chapter-cover.jpg') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+.layer {
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;  
+}
+.text-middle-title{
+  position: relative;
+  font-size: 26px;
+  top: 40%;
+  transform: translateY(-50%); 
+  color: $fontColor;
+}
+
+.text-middle-sub-title{
+  position: relative;
+  font-size: 18px;
+  top: 40%;
+  transform: translateY(-50%); 
+  color: $fontColor;
+}
+
+
+
+//navbar starts
+.navbar-default{
+  background-color: transparent;
+  box-shadow: none;
+  line-height: 10px;
+  height: 3em;
+  // line-height: 25px;
+  button{
+    color: white;
+  }
+
+  .fas{
+    color: white;
+  }
+
+}
+
+.sidenav{
+  width: 225px;
+}
+
+.navbar-nav{
+
+  > li {
+    margin-right: 6em;
+      
+    > a {
+      color: white;
+      margin: 10px 5px 5px 5px;
+      
+    }
+    // > a:hover, > a:active, > a:focus {
+    //   color: #C57ED3;
+    // }
+    > a:visited {
+      color: white;
+      text-decoration: none;
+    }
+
+  } //end li
+  > .active {
+
+    > a, > a:hover, > a:focus {
+      background-color: transparent;
+      color: $fontColor;
+    }
+
+  }
+}
+.bar-sticky{
+  position: fixed;
+  z-index: 100;
+}
+
+.navbar-solid{
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-top: 0;
+  animation: smoothScroll 1s forwards;
+  background-color: $primaryColor;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+}
+
+.navbar-fixed {
+  position: absolute;
+  z-index:999999999;
+
+
+    > li {
+
+       > a {
+         color: $secondaryColor;
+         transition: color 1s ease 0s;
+       }
+
+    } //end li
+
+ //end .navbar-nav
+
+}
+
+.link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.link-wrapper {
+  position: relative;
+  display: block;
+  padding: 20px 0;
+}
+
+.hover-10 {
+  &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 3px;
+      background-color: $primaryColor;
+      transform: scaleX(0);
+
+      transition: transform 0.3s;
+  }
+
+  &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 3px;
+      background-color: $primaryColor;
+      transform: scaleX(0);
+
+      transition: transform 0.3s;
+  }
+
+  &:hover {
+  &:before,
+      &:after {
+          transform: scaleX(1);
+      }
+  }
+}
+
+@keyframes smoothScroll {
+  0% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+// end of navbar
+
+section{
+  height: auto;
+  border-bottom: 1px solid $primaryColor;
+}
+
+/* about section */
+.chapter-history{
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.history-text{
+  font-size: 15px;
+}
+.member-text{
+  font-size: 18px;
+}
+
+.card-tag{
+  white-space: pre-wrap;
+}
+
+.footer-social{
+  font-size: 2rem;
+}
+
+//for event listing
+
+.event-list {
+  list-style: none;
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+.event-list > li {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 5px rgb(51, 51, 51);
+  box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+  padding: 0px;
+  margin: 0px 0px 20px;
+      cursor:pointer;
+}
+.event-list > li > time {
+  display: inline-block;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background-color: $primaryColor;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.event-list > li:nth-child(even) > time {
+  background-color: rgb(165, 82, 167);
+}
+.event-list > li > time > span {
+  display: none;
+}
+.event-list > li > time > .day {
+  display: block;
+  font-size: 56pt;
+  font-weight: 100;
+  line-height: 1;
+}
+.event-list > li time > .month {
+  display: block;
+  font-size: 24pt;
+  font-weight: 900;
+  line-height: 1;
+}
+.event-list > li > img {
+  width: 100%;
+}
+.event-list > li > .info {
+  padding-top: 5px;
+  text-align: center;
+}
+.event-list > li > .info > .title {
+  font-size: 17pt;
+  font-weight: 700;
+  margin: 0px;
+}
+.event-list > li > .info > .desc {
+  font-size: 13pt;
+  font-weight: 300;
+  margin: 0px;
+}
+.event-list > li > .info > ul,
+.event-list > li > .social > ul {
+  display: table;
+  list-style: none;
+  margin: 10px 0px 0px;
+  padding: 0px;
+  width: 100%;
+  text-align: center;
+}
+.event-list > li > .social > ul {
+  margin: 0px;
+}
+.event-list > li > .info > ul > li,
+.event-list > li > .social > ul > li {
+  display: table-cell;
+  cursor: pointer;
+  color: rgb(30, 30, 30);
+  font-size: 11pt;
+  font-weight: 300;
+      padding: 3px 0px;
+}
+  .event-list > li > .info > ul > li > a {
+  display: block;
+  width: 100%;
+  color: rgb(30, 30, 30);
+  text-decoration: none;
+} 
+  .event-list > li > .social > ul > li {    
+      padding: 0px;
+  }
+  .event-list > li > .social > ul > li > a {
+      padding: 3px 0px;
+} 
+.event-list > li > .info > ul > li:hover,
+.event-list > li > .social > ul > li:hover {
+  color: rgb(30, 30, 30);
+  background-color: rgb(200, 200, 200);
+}
+.facebook a,
+.twitter a,
+.google-plus a {
+  display: block;
+  width: 100%;
+  color: rgb(75, 110, 168) !important;
+}
+.twitter a {
+  color: rgb(79, 213, 248) !important;
+}
+.google-plus a {
+  color: rgb(221, 75, 57) !important;
+}
+.facebook:hover a {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(75, 110, 168) !important;
+}
+.twitter:hover a {
+  color: rgb(241, 91, 91) !important;
+  background-color: rgb(79, 213, 248) !important;
+}
+.google-plus:hover a {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(221, 75, 57) !important;
+}
+
