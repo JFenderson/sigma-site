@@ -1,18 +1,33 @@
 .text-middle-title{
     position: relative;
-    font-size: 40px;
-    top: 45%;
+    font-size: 6vh;
+    top: 7em;
     transform: translateY(-50%); 
     color: $fontColor;
-    }
+}
     
-    .text-middle-sub-title{
+.text-middle-sub-title{
     position: relative;
-    font-size: 25px;
-    top: 45%;
+    font-size: 3vh;
+    top: 13em;
     transform: translateY(-50%); 
     color: $fontColor;
+}
+
+.card-text{
+    font-size: 3.1vw;
+    span{
+      color: $primaryColor
     }
+  }
+
+#service{
+    height: 100vh;
+}
+
+.contact-card{
+    height: 23vh;
+}
 
 .event-list > li {
     position: relative;
@@ -46,7 +61,7 @@
     height: 120px;
     text-align: left;
     padding-right: 40px;
-}	
+}   
 .event-list > li > .info > .title, 
 .event-list > li > .info > .desc {
     padding: 0px 10px;
@@ -66,7 +81,7 @@
 .event-list > li > .social > ul {
     border-left: 1px solid rgb(230, 230, 230);
 }
-.event-list > li > .social > ul > li {			
+.event-list > li > .social > ul > li {          
     display: block;
     padding: 0px;
 }
@@ -75,3 +90,5 @@
     width: 40px;
     padding: 10px 0px 9px;
 }
+
+//medium

@@ -1,17 +1,18 @@
-    @import "variables";
+@import "variables";
+    @import "service-slideshow";
     
     .text-middle-title{
         position: relative;
-        font-size: 55px;
-        top: 25%;
+        font-size: 8vh;
+        top: 4em;
         transform: translateY(-50%); 
         color: $fontColor;
       }
       
       .text-middle-sub-title{
         position: relative;
-        font-size: 36px;
-        top: 20%;
+        font-size: 4vh;
+        top: 6em;
         transform: translateY(-50%); 
         color: $fontColor;
       }
@@ -20,22 +21,46 @@
       }
 
     .history-text {
-        font-size: 18px;
+        font-size: 20px;
     }
+    .chapter-officers{
+        .container{
+            width: 100%;
+        }
+        .card{
+            height: 37vh;
+        }
 
-    .card-title{
-        font-size: 18px;
-    }
-
-    .card-text{
-        font-size: 16px;
-        span{
-            color: $primaryColor;
-            display: inline-block;
+        .card-content{
+            padding: 1.5vh !important;
+            h5{
+                font-size: 2.3em !important;
+            }
+            }
+            
+        .card-title{
+            font-size: 18px;
+        }
+    
+        .card-text{
+            font-size: 20px;
+            padding: 10px;
+            span{
+                color: $primaryColor;
+                display: inline-block;
+            }
         }
     }
 
     #events{
+        height: auto;
+    }
+
+    #service{
+        height: 100vh;
+    }
+
+    #member{
         height: auto;
     }
 
@@ -71,9 +96,11 @@
         height: 120px;
         text-align: left;
         padding-right: 40px;
-    }	
+    }   
     .event-list > li > .info > .title, 
-    .event-list > li > .info > .desc {
+    .event-list > li > .info > .desc ,
+    .event-list > li > .info > span,
+    .event-list > li > .info > p{
         padding: 0px 10px;
     }
     .event-list > li > .info > ul {
@@ -91,7 +118,7 @@
     .event-list > li > .social > ul {
         border-left: 1px solid rgb(230, 230, 230);
     }
-    .event-list > li > .social > ul > li {			
+    .event-list > li > .social > ul > li {          
         display: block;
         padding: 0px;
     }
@@ -113,3 +140,14 @@
     .contact-card{
         height: 15em;
     }
+
+    #slideshow img {
+        width: 83%;
+        height: 75vh;
+        margin: 0;
+        border: solid 1px #1e88e5;
+        border-radius: 3px;
+        box-shadow: 0 0 5px 0 rgba(77, 77, 77, 0.3);
+    }
+
+//large

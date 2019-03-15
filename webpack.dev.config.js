@@ -3,7 +3,8 @@ const webpack = require('webpack')
 const HtmlWebPackPlugin = require('html-webpack-plugin')
 module.exports = {
   entry: {
-    main: ['webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000', './src/js/index.js']
+    main: ['webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000','@babel/polyfill', './src/js/index.js'],
+    lineHistory: ['webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000', './src/js/indexLine.js']
   },
   output: {
     path: path.join(__dirname, 'dist'),
@@ -58,7 +59,7 @@ module.exports = {
         ],
       },
       {
-       test: /\.(png|svg|jpg|gif)$/,
+       test: /\.(jpe?g|png|gif|svg)$/i,
        use: ['file-loader']
       }
     ]
@@ -67,7 +68,14 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: "./src/html/index.html",
       filename: "./index.html",
-      excludeChunks: [ 'server' ]
+      excludeChunks: [ 'server' ],
+      chunks: ['main']
+    }),
+    new HtmlWebPackPlugin({
+      template: "./src/html/lineHistory.html",
+      filename: "./lineHistory.html",
+      excludeChunks: [ 'server' ],
+      chunks: ['lineHistory']
     }),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoEmitOnErrorsPlugin()

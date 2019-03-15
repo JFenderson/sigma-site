@@ -1,17 +1,20 @@
 const path = require("path")
+const webpack = require("webpack")
 const HtmlWebPackPlugin = require("html-webpack-plugin")
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin")
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 module.exports = {
   entry: {
-    main: './src/index.js'
+    main: './src/js/index.js',
+    lineHistory: './src/js/indexLine.js'
   },
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, '/dist'),
     publicPath: '/',
     filename: '[name].js'
   },
+  mode: "production",
   target: 'web',
   devtool: '#source-map',
   // Webpack 4 does not have a CSS minifier, although
@@ -25,6 +28,9 @@ module.exports = {
       }),
       new OptimizeCSSAssetsPlugin({})
     ]
+  },
+  resolve: {
+    extensions: ['.js','.scss','html']
   },
   module: {
     rules: [
@@ -43,13 +49,12 @@ module.exports = {
         use: [
           {
             loader: "html-loader",
-            options: { minimize: true }
           }
         ]
       },
       {
         // Loads images into CSS and Javascript files
-        test: /\.jpg$/,
+        test: /\.(jpe?g|png|gif|svg)$/i,
         use: [{loader: "url-loader"}]
       },
       {
@@ -74,9 +79,18 @@ module.exports = {
       template: "./src/html/index.html",
       filename: "./index.html"
     }),
+    new HtmlWebPackPlugin({
+      template: "./src/html/lineHistory.html",
+      filename: "./lineHistory.html",
+      excludeChunks: ['main']
+    }),
     new MiniCssExtractPlugin({
       filename: '[name].[hash].css',
       chunkFilename: '[id].[hash].css'
+    }),
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery"
     })
   ]
 }

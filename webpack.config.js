@@ -45,6 +45,12 @@ module.exports = {
       template: "./src/html/index.html",
       filename: "./index.html",
       excludeChunks: [ 'server' ]
-    })
+    }),
+    new HtmlWebPackPlugin({
+      template: "./src/html/lineHistory.html",
+      filename: "./lineHistory.html",
+      excludeChunks: [ 'server' ],
+      chunks: ['lineHistory']
+    }),
   ]
 }

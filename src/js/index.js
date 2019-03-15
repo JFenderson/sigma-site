@@ -1,26 +1,23 @@
 import logMessage from './logger'
 import $ from 'jquery'
 import '../styles/styles.scss'
-
-$(document).ready(function() {
-
-  // Log message to console
-  logMessage('A very warm welcome to Expack!')
-  // Needed for Hot Module Replacement
-  if(typeof(module.hot) !== 'undefined') {
-    module.hot.accept() // eslint-disable-line no-undef  
-  }
+import moment from 'moment'
 
 
-	$('.preloader-wrapper')
-		.delay(1700)
-		.fadeOut();
+$(window).on('load', function() {
+  $(".pageloader").delay(2000).fadeOut("slow");
+  $('body').removeClass('hidden');
+  // // Log message to console
+  // logMessage('A very warm welcome to Expack!')
+  // // Needed for Hot Module Replacement
+  // if(typeof(module.hot) !== 'undefined') {
+  //   module.hot.accept() // eslint-disable-line no-undef  
+  // }
   
   $(window).scroll(function () {
       //if you hard code, then use console
       //.log to determine when you want the 
       //nav bar to stick.  
-      console.log($(window).scrollTop())
     if ($(window).scrollTop() >= 40) {
       $('#mainNav').addClass('navbar-solid');
       $('#bar').addClass('bar-sticky');
@@ -31,18 +28,6 @@ $(document).ready(function() {
   });
 
   $('ul.navbar-nav').find('a').click(function(e) {
-    // if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-    //     || location.hostname == this.hostname) {
-
-    //     var target = $(this.hash);
-    //     target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-    //        if (target.length) {
-    //          $('html,body').animate({
-    //              scrollTop: target.offset().top
-    //         }, 1000);
-    //         return false;
-    //     }
-    // }
     e.preventDefault();
     var target = this.hash;
     var $target = $(target);
@@ -85,6 +70,19 @@ $(document).ready(function() {
   $('.sidenav').sidenav();
   $('select').formSelect();
 
+  function importAll(r) {
+    let images = {};
+    r.keys().map((item) => { 
+      $('#slideshow').append(
+        `<div><img src=${r(item)}></div>`
+        )
+      images[item.replace('./', '')] = r(item); 
+
+    });
+  }
+  
+  importAll(require.context('../img', false, /\.(png|jpe?g|svg)$/));
+
   //service slideshow
   $("#slideshow > div:gt(0)").hide();
 
@@ -95,7 +93,57 @@ $(document).ready(function() {
       .fadeIn(2000)
       .end()
       .appendTo('#slideshow');
-  },  5000);
+  },  9000);
 
+
+  // //getting calendar info from back end
+  fetch('http://localhost:8080/api/calendar')
+  .then((res) => {
+     return res.json()
+  })
+  .then((data) => {
+    let eventList = data.map((event) => {
+      console.log(event)
+      if(event.description){
+        $('.event-row').append(`  
+          <div class="col s12 m6 l6">
+            <ul class="event-list">
+              <li key="${event.id}">
+                  <time datetime="${event.start}">
+                    <span class="day">${moment(event.start.date).format('DD')}</span>
+                    <span class="month">${moment(event.start.months).format('MMM')}</span>
+                  </time>
+                  <div class="info">
+                    <h2 class="title">${event.summary.toUpperCase()}</h2>
+                    <span class="time"> Start:${moment(event.start.hours).format('hh')}:${moment(event.start.minutes).format('mm')}</span>
+                    <p>${event.description}</p>
+                  </div>
+              </li>
+            </ul>
+          </div>`                      
+           )
+      }else{
+        $('.event-row').append(`  
+        <div class="col s12 m6 l6">
+          <ul class="event-list">
+            <li key="${event.id}">
+                <time datetime="${event.start}">
+                  <span class="day">${moment(event.start.date).format('DD')}</span>
+                  <span class="month">${moment(event.start.months).format('MMM')}</span>
+                </time>
+                <div class="info">
+                  <h2 class="title">${event.summary.toUpperCase()}</h2>
+                  <span class="time"> start time:${moment(event.start.hours).format('hh')}:${moment(event.start.minutes).format('mm')}</span>
+                </div>
+            </li>
+          </ul>
+        </div>`                      
+         )
+      }
+       })
+    return eventList;
+  })  
+  .catch((err) => {
+    console.error(err)
+    })
 });
-

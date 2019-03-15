@@ -1,0 +1,1017 @@
+[
+    {
+        "year": 1924,
+        "linename": "The First of Sigma Chapter",
+        "season": "Fall",
+        "members": [
+            {
+                "firstName": "William A.",
+                "lastName": "Bell",
+                "number": 1
+            }
+        ]
+    },
+    {
+        "year": 1955,
+        "linename": "Unknown Line Name",
+        "season": "Fall",
+        "members": [
+            {
+                "firstName": "Lee T.",
+                "lastName": "Dixon",
+                "number": 1
+            },
+            {
+                "firstName": "R.",
+                "lastName": "Anthony",
+                "number": 2
+            },
+            {
+                "firstName": "H.",
+                "lastName": "Gibson",
+                "number": 3
+            },
+            {
+                "firstName": "W.",
+                "lastName": "Gunn",
+                "number": 4
+            },
+            {
+                "firstName": "C.",
+                "lastName": "Hardy",
+                "number": 5
+            },
+            {
+                "firstName": "W.",
+                "lastName": "Lee",
+                "number": 6
+            },
+            {
+                "firstName": "C.",
+                "lastName": "Lige",
+                "number": 7
+            },
+            {
+                "firstName": "S.",
+                "lastName": "Smith",
+                "number": 8
+            },
+            {
+                "firstName": "N.",
+                "lastName": "Studdard",
+                "number": 9
+            },
+            {
+                "firstName": "E.",
+                "lastName": "Terry",
+                "number": 10
+            }
+        ]
+    },
+    {
+        "year": 1995,
+        "season": "Fall",
+        "linename": "Six Time the Pleasure",
+        "members": [
+            {
+                "firstName": "Daniel",
+                "lastName": "Todd",
+                "number": 1,
+                "sigmaname": "Mr.Onederful"
+            },
+            {
+                "firstName": "Chris",
+                "lastName": "Whisenhunt",
+                "number": 2,
+                "sigmaname": "Two Devine"
+            },
+            {
+                "firstName": "Clarence",
+                "lastName": "Selma (Harris)",
+                "number": 3,
+                "sigmaname": "Triple Sec"
+            },
+            {
+                "firstName": "Joseph",
+                "lastName": "Dennis",
+                "number": 4,
+                "sigmaname": "Mr.Fourplay"
+            },
+            {
+                "firstName": "Billy",
+                "lastName": "Nelson",
+                "number": 5,
+                "sigmaname": "Five Minutes and More"
+            },
+            {
+                "firstName": "Tarnett",
+                "lastName": "Morris",
+                "number": 6,
+                "sigmaname": "Six Appeal"
+            }
+            
+        ]
+    },
+    {
+        "year": 1997,
+        "season": "Fall",
+        "linename": "8 Royal Abstracts",
+        "members": [
+            {
+                "firstName": "Jermaine",
+                "lastName": "Cook",
+                "number": 1,
+                "sigmaname": "Hope"
+            },
+            {
+                "firstName": "Derrick",
+                "lastName": "Little",
+                "number": 2,
+                "sigmaname": "Curosity"
+            },
+            {
+                "firstName": "Gary",
+                "lastName": "Bryant",
+                "number": 3,
+                "sigmaname": "Pain"
+            },
+            {
+                "firstName": "Trevor",
+                "lastName": "Law",
+                "number": 4,
+                "sigmaname": "Fear"
+            },
+            {
+                "firstName": "Konard",
+                "lastName": "Yancie",
+                "number": 5,
+                "sigmaname": "Faith"
+            },
+            {
+                "firstName": "Calvin",
+                "lastName": "Barlow",
+                "number": 6,
+                "sigmaname": "Grace"
+            },
+            {
+                "firstName": "Maurice",
+                "lastName": "Preston",
+                "number": 7,
+                "sigmaname": "Confusion"
+            },
+            {
+                "firstName": "Willie",
+                "lastName": "Clark",
+                "number": 8,
+                "sigmaname": "Love"
+            }
+            
+        ]
+    },
+    {
+        "year": 1998,
+        "season": "Fall",
+        "linename": "5 Marvels of Blue",
+        "members": [
+            {
+                "firstName": "Carlos",
+                "lastName": "Whistenhunt",
+                "number": 1,
+                "sigmaname": "1derman"
+            },
+            {
+                "firstName": "Henry",
+                "lastName": "Pope",
+                "number": 2,
+                "sigmaname": "Colossus"
+            },
+            {
+                "firstName": "Willie",
+                "lastName": "Lucius",
+                "number": 3,
+                "sigmaname": "Beast"
+            },
+            {
+                "firstName": "Voshon",
+                "lastName": "Rose",
+                "number": 4,
+                "sigmaname": "Night Crawler"
+            },
+            {
+                "firstName": "Joseph",
+                "lastName": "Cordell",
+                "number": 5,
+                "sigmaname": "Captain America",
+                "history": "1st White student to join a NPHC fraternity at Miles College" 
+            }
+            
+        ]
+    },
+    {
+        "year": 1999,
+        "season": "Fall",
+        "linename": "10 Gods of Blue",
+        "members": [
+            {
+                "firstName": "Leon",
+                "lastName": "Moody",
+                "number": 1,
+                "sigmaname": "Zeus"
+            },
+            {
+                "firstName": "Anthony",
+                "lastName": "Ballard",
+                "number": 2,
+                "sigmaname": "Cronos"
+            },
+            {
+                "firstName": "Warren G.",
+                "lastName": "Roberts",
+                "number": 3,
+                "sigmaname": "Dionysus"
+            },
+            {
+                "firstName": "Dwight",
+                "lastName": "Moore",
+                "number": 4,
+                "sigmaname": "Ares"
+            },
+            {
+                "firstName": "Corey",
+                "lastName": "Thorton",
+                "number": 5,
+                "sigmaname": "Hercules"
+            },
+            {
+                "firstName": "Larry H.",
+                "lastName": "Johnson",
+                "number": 6,
+                "sigmaname": "Apollo"
+            },
+            {
+                "firstName": "John",
+                "lastName": "Dennis",
+                "number": 7,
+                "sigmaname": "Posiden"
+            },
+            {
+                "firstName": "C. J.",
+                "lastName": "Thomas",
+                "number": 8,
+                "sigmaname": "Hermes"
+            },
+            {
+                "firstName": "Perry",
+                "lastName": "Moore",
+                "number": 9,
+                "sigmaname": "Heaestus"
+            },
+            {
+                "firstName": "Lamar",
+                "lastName": "Blakely",
+                "number": 10,
+                "sigmaname": "Hades"
+            }
+            
+        ]
+    },
+    {
+        "year": 2000,
+        "season": "Spring",
+        "linename": "Blue Solo System",
+        "members": [
+            {
+                "firstName": "Abdul",
+                "lastName": "Lanier Sr.",
+                "number": 1,
+                "sigmaname": "Mercury"
+            }
+        ]
+    },
+    {
+        "year": 2001,
+        "season": "Spring",
+        "linename": "5 Sips of Liquor",
+        "members": [
+            {
+                "firstName": "Adrien",
+                "lastName": "Lewis",
+                "number": 1,
+                "sigmaname": "Blue Henessee"
+            },
+            {
+                "firstName": "Nakia",
+                "lastName": "Dorsey",
+                "number": 2,
+                "sigmaname": "Blue Beast"
+            },
+            {
+                "firstName": "Mckeler",
+                "lastName": "Hill",
+                "number": 3,
+                "sigmaname": "Blue Ram"
+            },
+            {
+                "firstName": "Bryant",
+                "lastName": "Washington",
+                "number": 4,
+                "sigmaname": "Blue Night Train"
+            },
+            {
+                "firstName": "Deque",
+                "lastName": "Carter",
+                "number": 5,
+                "sigmaname": "Blue Absolute"
+            }
+        ]
+    },
+    {
+        "year": 2003,
+        "season": "Spring",
+        "linename": "10 Blue Ressurections",
+        "members": [
+            {
+                "firstName": "Demarcus",
+                "lastName": "Thomas",
+                "number": 1,
+                "sigmaname": "Chucky"
+            },
+            {
+                "firstName": "Cedric",
+                "lastName": "Kidd",
+                "number": 2,
+                "sigmaname": "Dracula"
+            },
+            {
+                "firstName": "Omar",
+                "lastName": "",
+                "number": 3,
+                "sigmaname": "Wish Master"
+            },
+            {
+                "firstName": "Clifford",
+                "lastName": "Matthews",
+                "number": 4,
+                "sigmaname": "Freaky Friday"
+            },
+            {
+                "firstName": "Jessie",
+                "lastName": "Washington",
+                "number": 5,
+                "sigmaname": "Hell Raiser"
+            },
+            {
+                "firstName": "Howard",
+                "lastName": "Bailey",
+                "number": 6,
+                "sigmaname": "Wolfman"
+            },
+            {
+                "firstName": "Greg",
+                "lastName": "",
+                "number": 7,
+                "sigmaname": "Jeepers Creepers"
+            },
+            {
+                "firstName": "Quinton",
+                "lastName": "",
+                "number": 8,
+                "sigmaname": "Jason"
+            },
+            {
+                "firstName": "Demetrius",
+                "lastName": "Jackson",
+                "number": 9,
+                "sigmaname": "Leather Face"
+            },
+            {
+                "firstName": "JaMarcus",
+                "lastName": "Boyer",
+                "number": 10,
+                "sigmaname": "Michael Myers"
+            }
+            
+        ]
+    },
+    {
+        "year": 2003,
+        "season": "Fall",
+        "linename": "",
+        "members": [
+            {
+                "firstName": "Willie",
+                "lastName": "Johniken",
+                "number": 1,
+                "sigmaname": ""
+            },
+            {
+                "firstName": "Jabari",
+                "lastName": "Hoyett",
+                "number": 2,
+                "sigmaname": ""
+            }
+        ]
+    },
+    {
+        "year": 2004,
+        "season": "Fall",
+        "linename": "6 Elements of Blue",
+        "members": [
+            {
+                "firstName": "James",
+                "lastName": "Richardson",
+                "number": 2,
+                "sigmaname": ""
+            },
+            {
+                "firstName": "Chad",
+                "lastName": "Tittle",
+                "number": 3,
+                "sigmaname": ""
+            },
+            {
+                "firstName": "Calvin",
+                "lastName": "Edwards",
+                "number": 4,
+                "sigmaname": ""
+            },
+            {
+                "firstName": "Demetrius",
+                "lastName": "Bell",
+                "number": 5,
+                "sigmaname": ""
+            },
+            {
+                "firstName": "Brandon",
+                "lastName": "Taylor",
+                "number": 6,
+                "sigmaname": ""
+            }
+        ]
+    },
+    {
+        "year": 2007,
+        "season": "Spring",
+        "linename": "Soldiers of Sigma(S.S. The Blue Renaissance",
+        "members": [
+            {
+                "firstName": "Jermaine",
+                "lastName": "Hudson",
+                "number": 1,
+                "sigmaname": "Davis"
+            },
+            {
+                "firstName": "Joshua",
+                "lastName": "Newton",
+                "number": 2,
+                "sigmaname": ""
+            },
+            {
+                "firstName": "Charles",
+                "lastName": "McCollugh",
+                "number": 3,
+                "sigmaname": ""
+            },
+            {
+                "firstName": "Darrel",
+                "lastName": "Calhoun",
+                "number": 4,
+                "sigmaname": "Persues"
+            },
+            {
+                "firstName": "Lyndon",
+                "lastName": "Newton",
+                "number": 5,
+                "sigmaname": "Achilles"
+            },
+            {
+                "firstName": "Earl",
+                "lastName": "Lester",
+                "number": 6,
+                "sigmaname": "King Leonidas"
+            },
+            {
+                "firstName": "Emanuel",
+                "lastName": "Stephens",
+                "number": 7,
+                "sigmaname": "Odusseus"
+            }
+        ]
+    },
+    {
+        "year": 2008,
+        "season": "Spring",
+        "linename": "Blue Brother",
+        "members": [
+            {
+                "firstName": "Cedric",
+                "lastName": "Stevens",
+                "number": 1,
+                "sigmaname": "Blue Mario"
+            },
+            {
+                "firstName": "Kel",
+                "lastName": "Roberts",
+                "number": 2,
+                "sigmaname": "Blue Luigi"
+            }
+        ]
+    },
+    {
+        "year": 2009,
+        "season": "Fall",
+        "linename": "2 Blue Beasts",
+        "members": [
+            {
+                "firstName": "Cornelius",
+                "lastName": "Woods",
+                "number": 1,
+                "sigmaname": "Blue Grizzly"
+            },
+            {
+                "firstName": "Matthew",
+                "lastName": "Roberts",
+                "number": 2,
+                "sigmaname": "Blue Gator"
+            }
+        ]
+    },
+    {
+        "year": 2010,
+        "season": "Spring",
+        "linename": "2 Party Boys of Sigma",
+        "members": [
+            {
+                "firstName": "Clevlan",
+                "lastName": "Jordan",
+                "number": 1,
+                "sigmaname": "Van Wilder"
+            },
+            {
+                "firstName": "Randell",
+                "lastName": "Cole",
+                "number": 2,
+                "sigmaname": "Frank The Tank"
+            }
+        ]
+    },
+    {
+        "year": 2010,
+        "season": "Fall",
+        "linename": "6 Monsters of Sigma",
+        "members": [
+            {
+                "firstName": "James",
+                "lastName": "Bell",
+                "number": 1,
+                "sigmaname": ""
+            },
+            {
+                "firstName": "Jakeel",
+                "lastName": "",
+                "number": 2,
+                "sigmaname": ""
+            },
+            {
+                "firstName": "Patrick",
+                "lastName": "Braxton",
+                "number": 3,
+                "sigmaname": ""
+            },
+            {
+                "firstName": "Chris",
+                "lastName": "Oliver",
+                "number": 4,
+                "sigmaname": ""
+            },
+            {
+                "firstName": "Jeremy",
+                "lastName": "Lee",
+                "number": 5,
+                "sigmaname": ""
+            },
+            {
+                "firstName": "Darell",
+                "lastName": "McClamore",
+                "number": 6,
+                "sigmaname": ""
+            }
+        ]
+    },
+    {
+        "year": 2011,
+        "season": "Fall",
+        "linename": "7 Super Villans",
+        "members": [
+            {
+                "firstName": "Travis",
+                "lastName": "Moss",
+                "number": 1,
+                "sigmaname": "Death Stroke"
+            },
+            {
+                "firstName": "Javon",
+                "lastName": "Crowder",
+                "number": 2,
+                "sigmaname": "2 Face"
+            },
+            {
+                "firstName": "Sylvollis",
+                "lastName": "Williams",
+                "number": 3,
+                "sigmaname": "Joker"
+            },
+            {
+                "firstName": "Phillip",
+                "lastName": "Packer",
+                "number": 4,
+                "sigmaname": "Bizaro"
+            },
+            {
+                "firstName": "Micah",
+                "lastName": "Blair",
+                "number": 5,
+                "sigmaname": "Lex Luthor"
+            },
+            {
+                "firstName": "John",
+                "lastName": "Marbury",
+                "number": 6,
+                "sigmaname": ""
+            },
+            {
+                "firstName": "Romelio",
+                "lastName": "Maynard",
+                "number": 6,
+                "sigmaname": "Blue Bane"
+            }
+        ]
+    },
+    {
+        "year": 2013,
+        "season": "Spring",
+        "linename": "12 Sigmas of Seduction",
+        "members": [
+            {
+                "firstName": "Amri",
+                "lastName": "Taylor",
+                "number": 1,
+                "sigmaname": "Blue Moses"
+            },
+            {
+                "firstName": "Robert",
+                "lastName": "Moore",
+                "number": 2,
+                "sigmaname": "Fresh Prince"
+            },
+            {
+                "firstName": "Don",
+                "lastName": "Grant",
+                "number": 3,
+                "sigmaname": "Pure Blue"
+            },
+            {
+                "firstName": "Thornal",
+                "lastName": "Adams",
+                "number": 4,
+                "sigmaname": ""
+            },
+            {
+                "firstName": "Zarian",
+                "lastName": "Brison",
+                "number": 5,
+                "sigmaname": "Blue Light Special"
+            },
+            {
+                "firstName": "Michael",
+                "lastName": "Johnson",
+                "number": 6,
+                "sigmaname": "Spectacular Blue"
+            },
+            {
+                "firstName": "Courtney",
+                "lastName": "Moss",
+                "number": 7,
+                "sigmaname": "Blue Heartbreak"
+            },
+            {
+                "firstName": "Justin",
+                "lastName": "Grays",
+                "number": 8,
+                "sigmaname": "Blue Magnum"
+            },
+            {
+                "firstName": "Richard",
+                "lastName": "Huff",
+                "number": 9,
+                "sigmaname": "Leather Face"
+            },
+            {
+                "firstName": "Sheddrick",
+                "lastName": "Walker",
+                "number": 10,
+                "sigmaname": "Blue Gentleman"
+            },
+            {
+                "firstName": "Ian",
+                "lastName": "Brown",
+                "number": 11,
+                "sigmaname": "Winter Fresh"
+            },
+            {
+                "firstName": "Ricky",
+                "lastName": "Exford",
+                "number": 12,
+                "sigmaname": "Nortorius Blue"
+            }
+        ]
+    },
+    {
+        "year": 2014,
+        "season": "Spring",
+        "linename": "9 Soldiers of Armageddon",
+        "history": "centenial line",
+        "members": [
+            {
+                "firstName": "Darrius",
+                "lastName": "Green",
+                "number": 1,
+                "sigmaname": "Blue Apocalypse"
+            },
+            {
+                "firstName": "Ryan",
+                "lastName": "Blue",
+                "number": 2,
+                "sigmaname": "Oblivion"
+            },
+            {
+                "firstName": "Rejai",
+                "lastName": "Smiley",
+                "number": 3,
+                "sigmaname": "Blue Warfare"
+            },
+            {
+                "firstName": "Steven",
+                "lastName": "Foy",
+                "number": 4,
+                "sigmaname": "Disaster Blue"
+            },
+            {
+                "firstName": "Joseph",
+                "lastName": "Fenderson",
+                "number": 5,
+                "sigmaname": "Constantine"
+            },
+            {
+                "firstName": "Cornelius",
+                "lastName": "Harris",
+                "number": 6,
+                "sigmaname": "Blue Rapture"
+            },
+            {
+                "firstName": "Jeremy",
+                "lastName": "Booker",
+                "number": 7,
+                "sigmaname": "Doomsday"
+            },
+            {
+                "firstName": "Tyree",
+                "lastName": "Sanders",
+                "number": 8,
+                "sigmaname": "Blue Havoc"
+            },
+            {
+                "firstName": "Michael",
+                "lastName": "Shockley",
+                "number": 9,
+                "sigmaname": "Revelation"
+            }
+        ]
+    },
+    {
+        "year": 2015,
+        "season": "Spring",
+        "linename": "6 Nightmares of Sigma",
+        "members": [
+            {
+                "firstName": "Heracio",
+                "lastName": "Paige",
+                "number": 1,
+                "sigmaname": "Jiggsaw"
+            },
+            {
+                "firstName": "Darion",
+                "lastName": "Howard",
+                "number": 2,
+                "sigmaname": "Texas Chainsaw"
+            },
+            {
+                "firstName": "Dillion",
+                "lastName": "Dillingham",
+                "number": 3,
+                "sigmaname": "Candy Man"
+            },
+            {
+                "firstName": "Jeremy",
+                "lastName": "Buffington",
+                "number": 4,
+                "sigmaname": "Hanabel Lector"
+            },
+            {
+                "firstName": "Ricky",
+                "lastName": "Burrell",
+                "number": 5,
+                "sigmaname": "Frankenstein"
+            },
+            {
+                "firstName": "Michael",
+                "lastName": "Eubank",
+                "number": 6,
+                "sigmaname": "Scream",
+                "history": "attended Samford University"
+            }
+        ]
+    },
+    {
+        "year": 2017,
+        "season": "Spring",
+        "linename": "14 Devious Minds of teh Crazy Asylum",
+        "members": [
+            {
+                "firstName": "Malik",
+                "lastName": "Longsworth",
+                "number": 1,
+                "sigmaname": "Ace Boogie"
+            },
+            {
+                "firstName": "Ty'Javon",
+                "lastName": "Brown",
+                "number": 2,
+                "sigmaname": "Carson Menace"
+            },
+            {
+                "firstName": "Arthur",
+                "lastName": "Loud",
+                "number": 3,
+                "sigmaname": "Dead Silence"
+            },
+            {
+                "firstName": "Demetri",
+                "lastName": "Thornton",
+                "number": 4,
+                "sigmaname": "Choir Boy"
+            },
+            {
+                "firstName": "Marvel",
+                "lastName": "Freeman",
+                "number": 5,
+                "sigmaname": "Dr. Strange"
+            },
+            {
+                "firstName": "DeMarcus",
+                "lastName": "Davis",
+                "number": 6,
+                "sigmaname": "Country Grammar"
+            },
+            {
+                "firstName": "Taquan",
+                "lastName": "Davis",
+                "number": 7,
+                "sigmaname": "QuestLove"
+            },
+            {
+                "firstName": "Geoffrey",
+                "lastName": "Nicolson",
+                "number": 8,
+                "sigmaname": "Inner City Blue"
+            },
+            {
+                "firstName": "Elija-Jaun",
+                "lastName": "Farley",
+                "number": 9,
+                "sigmaname": "Return of the Mac"
+            },
+            {
+                "firstName": "Chris",
+                "lastName": "Singleton",
+                "number": 10,
+                "sigmaname": "The Clown Prince of GOMAB"
+            },
+            {
+                "firstName": "Marquel",
+                "lastName": "Newkirk",
+                "number": 11,
+                "sigmaname": "Flash Point"
+            },
+            {
+                "firstName": "Jarrod",
+                "lastName": "Bivins",
+                "number": 12,
+                "sigmaname": "Task Force"
+            },
+            {
+                "firstName": "Davon",
+                "lastName": "Williams",
+                "number": 13,
+                "sigmaname": "Saturday Night Live"
+            },
+            {
+                "firstName": "Ty'Rondrick",
+                "lastName": "Thomas",
+                "number": 14,
+                "sigmaname": "Smooth Criminal"
+            }
+        ]
+    },
+    {
+        "year": 2018,
+        "season": "Spring",
+        "linename": "",
+        "members": [
+            {
+                "firstName": "Malik",
+                "lastName": "Longsworth",
+                "number": 1,
+                "sigmaname": "Ace Boogie"
+            },
+            {
+                "firstName": "Ty'Javon",
+                "lastName": "Brown",
+                "number": 2,
+                "sigmaname": "Carson Menace"
+            },
+            {
+                "firstName": "Arthur",
+                "lastName": "Loud",
+                "number": 3,
+                "sigmaname": "Dead Silence"
+            },
+            {
+                "firstName": "Demetri",
+                "lastName": "Thornton",
+                "number": 4,
+                "sigmaname": "Choir Boy"
+            },
+            {
+                "firstName": "Marvel",
+                "lastName": "Freeman",
+                "number": 5,
+                "sigmaname": "Dr. Strange"
+            },
+            {
+                "firstName": "DeMarcus",
+                "lastName": "Davis",
+                "number": 6,
+                "sigmaname": "Country Grammar"
+            },
+            {
+                "firstName": "Taquan",
+                "lastName": "Davis",
+                "number": 7,
+                "sigmaname": "QuestLove"
+            },
+            {
+                "firstName": "Geoffrey",
+                "lastName": "Nicolson",
+                "number": 8,
+                "sigmaname": "Inner City Blue"
+            },
+            {
+                "firstName": "Elija-Jaun",
+                "lastName": "Farley",
+                "number": 9,
+                "sigmaname": "Return of the Mac"
+            },
+            {
+                "firstName": "Chris",
+                "lastName": "Singleton",
+                "number": 10,
+                "sigmaname": "The Clown Prince of GOMAB"
+            },
+            {
+                "firstName": "Marquel",
+                "lastName": "Newkirk",
+                "number": 11,
+                "sigmaname": "Flash Point"
+            },
+            {
+                "firstName": "Jarrod",
+                "lastName": "Bivins",
+                "number": 12,
+                "sigmaname": "Task Force"
+            },
+            {
+                "firstName": "Davon",
+                "lastName": "Williams",
+                "number": 13,
+                "sigmaname": "Saturday Night Live"
+            },
+            {
+                "firstName": "Ty'Rondrick",
+                "lastName": "Thomas",
+                "number": 14,
+                "sigmaname": "Smooth Criminal"
+            }
+        ]
+    }
+]
